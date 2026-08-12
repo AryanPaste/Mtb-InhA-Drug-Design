@@ -1,2 +1,2 @@
-# Mtb-InhA-Drug-Design
+# Mtb-InhA-Drug-Design (Work in Progress)
 A bioinformatics and computer-aided drug design (CADD) study targeting the InhA enzyme of Mycobacterium tuberculosis.
