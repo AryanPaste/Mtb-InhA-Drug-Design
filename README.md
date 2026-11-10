@@ -48,4 +48,12 @@ The protein structure selected for the study is `8OTN`.
 * The RCSB Protein Data Bank (https://www.rcsb.org/) was used to search for and download the 3D structure file of the target protein by entering the PDB ID (e.g., 8OTN) in the search bar.
 * The structure file in PDB format was saved for further analyses and visualization.
 
-![8OTN - Structure](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Structure.png)
+![Structure](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Structure.png)
+
+### 2. Identifying Enzyme Domains with Pfam/InterPro
+
+* The UniProt website (https://www.uniprot.org/) was used to obtain the protein sequence or UniProt accession number.
+* This sequence was entered into the InterPro (https://www.ebi.ac.uk/interpro/) or Pfam tool (https://www.ebi.ac.uk/interpro/search/sequence/) and the search was run.
+* The output listed all matched protein domains, which were downloaded in formats such as TSV, JSON, XML, or as a screenshot of the webpage.
+
+![Enzyme Domains]https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20InterPro.png
