@@ -71,6 +71,8 @@ GSHMTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGR
 
 ![Enzyme Domains](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20InterPro.png)
 
+---
+
 ### 4. Determining Physicochemical Properties with ProtParam
 
 * The protein’s amino acid sequence was pasted into the ExPASy ProtParam tool (https://web.expasy.org/protparam/).
@@ -140,6 +142,8 @@ This classifies the protein as stable.
 Aliphatic index: 98.75
 Grand average of hydropathicity (GRAVY):0.135
 ```
+---
+
 ### 5. Analyzing Protein-Protein Interactions with STRING
 
 * The STRING database (https://string-db.org/) was accessed and the protein name or UniProt accession was entered in the search bar.
@@ -148,12 +152,16 @@ Grand average of hydropathicity (GRAVY):0.135
 
 ![STRING](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20STRING.png)
 
+---
+
 ### 6. Identifying Active Sites with CASTp or DoGSiteScorer
 
 * The CASTp server (http://sts.bioe.uic.edu/castp/) was opened and the PDB ID (e.g., 8OTN) was submitted.
 * The server analyzed the structure and returned predicted active site pockets and residue information.
 
 ![Active Sites](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20ActiveSites.png)
+
+---
 
 ### 7. Protein Structure Validation (Ramachandran Plot)
 
@@ -162,12 +170,16 @@ Grand average of hydropathicity (GRAVY):0.135
 
 ![Ramachandran Plot](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20RamachandranPlot.png)
 
+---
+
 ### 8. Drug-Ligand Information Search (FDA Status)
 
 * DrugBank (https://go.drugbank.com/) was used to search for the ligand (e.g., NAD, NADH, or small-molecule inhibitors).
 * The official DrugBank entry for the ligand was checked for FDA approval status, mechanism of action, and clinical relevance.
 
 ![DrugBank](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Drugbank.png)
+
+---
 
 ### 9. Virtual Screening
 
