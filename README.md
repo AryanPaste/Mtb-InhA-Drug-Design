@@ -3,6 +3,7 @@
 Overview:
 
 Organism: Mycobacterium tuberculosis (MT)
+
 Protein: InhA, also known as Enoyl-[acyl-carrier-protien] reductase
 Gene: Rv1484
 Function: InhA is an enzyme involved in fatty acid synthesis, specifically in the synthesis of mycolic acid which are long chain fatty acids unique to mycobacterial cell walls.
