@@ -37,4 +37,4 @@ This repository contains a computational biology and computer-aided drug design 
 * **Structural Biology:** Numerous crystal structures for studying enzyme mechanism and inhibitor binding.
 * **Drug screening:** Molecular docking and inhibitor design focused on the hydrophobic active site.
 
-The protein structure selected for the study is `**8OTN.**`
+The protein structure selected for the study is `8OTN`.
