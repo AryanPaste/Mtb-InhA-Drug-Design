@@ -1,7 +1,7 @@
 # Mtb-InhA-Drug-Design 
 
 ## 📋 Project Overview
-This repository contains a computational biology and computer-aided drug design (CADD) study focusing on the **InhA enzyme** (Enoyl-[acyl-carrier-protein] reductase, Gene: `Rv1484`), a critical target for anti-tubercular therapeutics. The project explores the structural properties of the target protein, protein-protein interaction networks, active site pockets, and virtual screening of potential inhibitors
+This repository contains a computational biology and computer-aided drug design (CADD) study focusing on the **InhA enzyme** (Enoyl-[acyl-carrier-protein] reductase, Gene: `Rv1484`), a critical target for anti-tubercular therapeutics. The project explores the structural properties of the target protein, protein-protein interaction networks, active site pockets, and virtual screening of potential inhibitors.
 
 * **Organism:** Mycobacterium tuberculosis (MT)
 * **Protein:** InhA, also known as Enoyl-[acyl-carrier-protein] reductase
@@ -20,18 +20,18 @@ This repository contains a computational biology and computer-aided drug design 
 * Mutations in InhA or its promoter region are common mechanisms of INH resistance.
 * Because humans do not synthesize mycolic acids and lack FAS-II, InhA is a selective and effective drug target.
 
-**Protein Data Bank (PDB) Information**
+**Protein Data Bank (PDB) Information:**
 * The crystal structure of InhA from M. tuberculosis has been solved by X-ray crystallography.
 * **Example PDB IDs:** 1BVR, 2NSD, 4TRN, 8OTN
 * Structures show InhA complexed with NADH, fatty acyl substrates, and various inhibitors, useful for drug design.
 
-**Properties and Key Features**
+**Properties and Key Features:**
 * **Molecular Weight:** Approximately 29 kDa
 * **Structure:** Homotetrameric enzyme with each subunit harboring a Rossmann fold binding NADH.
 * **Active Site:** Hydrophobic pocket that binds enoyl-ACP substrates and inhibitors.
 * Essential enzyme for mycolic acid biosynthesis, critical for cell wall integrity.
 
-**Methods to Identify and Study the Protein**
+**Methods to Identify and Study the Protein:**
 * **Genetics**: Gene knockout and mutation studies confirm essentiality and resistance mechanisms.
 * **Bioinformatics:** Annotated in Mycobrowser (Rv1484), STRING for interactions.
 * **Structural Biology:** Numerous crystal structures for studying enzyme mechanism and inhibitor binding.
