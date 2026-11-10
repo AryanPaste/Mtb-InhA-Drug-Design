@@ -14,24 +14,24 @@ This repository contains a computational biology and computer-aided drug design 
 * Mycolic acids provides the cell wall with impermeability and resistance to host defence and antibiotics, crucial for MT’s virulence and survival.
 * InhA catalyzes the NADH dependent reduction of enoyl-ACP, a critical step in fatty acid chain elongation.
 
-**Importance of InhA as a Drug Target:**
+### **Importance of InhA as a Drug Target:**
 * InhA is the primary target of the frontline anti-TB drug isoniazid (INH) and second-line drug ethionamide.
 * INH inhibits InhA by forming a complex after enzymatic activation, disrupting mycolic acid synthesis which compromises the bacterial cell wall, leading to bacterial death.
 * Mutations in InhA or its promoter region are common mechanisms of INH resistance.
 * Because humans do not synthesize mycolic acids and lack FAS-II, InhA is a selective and effective drug target.
 
-**Protein Data Bank (PDB) Information:**
+### **Protein Data Bank (PDB) Information:**
 * The crystal structure of InhA from M. tuberculosis has been solved by X-ray crystallography.
 * **Example PDB IDs:** `1BVR`, `2NSD`, `4TRN`, `8OTN`
 * Structures show InhA complexed with NADH, fatty acyl substrates, and various inhibitors, useful for drug design.
 
-**Properties and Key Features:**
+### **Properties and Key Features:**
 * **Molecular Weight:** Approximately 29 kDa
 * **Structure:** Homotetrameric enzyme with each subunit harboring a Rossmann fold binding NADH.
 * **Active Site:** Hydrophobic pocket that binds enoyl-ACP substrates and inhibitors.
 * Essential enzyme for mycolic acid biosynthesis, critical for cell wall integrity.
 
-**Methods to Identify and Study the Protein:**
+### **Methods to Identify and Study the Protein:**
 * **Genetics**: Gene knockout and mutation studies confirm essentiality and resistance mechanisms.
 * **Bioinformatics:** Annotated in Mycobrowser (Rv1484), STRING for interactions.
 * **Structural Biology:** Numerous crystal structures for studying enzyme mechanism and inhibitor binding.
@@ -47,4 +47,5 @@ The protein structure selected for the study is `8OTN`.
 
 * The RCSB Protein Data Bank (https://www.rcsb.org/) was used to search for and download the 3D structure file of the target protein by entering the PDB ID (e.g., 8OTN) in the search bar.
 * The structure file in PDB format was saved for further analyses and visualization.
+
 ![8OTN - Structure](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Structure.png)
