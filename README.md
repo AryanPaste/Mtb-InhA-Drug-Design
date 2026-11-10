@@ -43,6 +43,9 @@ The protein structure selected for the study is `8OTN`.
 
 ## 📊 Key Results & Visualizations
 
+`>8OTN_1|Chains A, B, C, D|Enoyl-[acyl-carrier-protein] reductase [NADH]|Mycobacterium tuberculosis (1773)
+GSHMTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGRVTEAIGAGNKLDGVVHSIGFMPQTGMGINPFFDAPYADVSKGIHISAYSYASMAKALLPIMNPGGSIVGMDFDPSRAMPAYNWMTVAKSALESVNRFVAREAGKYGVRSNLVAAGPIRTLAMSAIVGGALGEEAGAQIQLLEEGWDQRAPIGWNMKDATPVAKTVCALLSDWLPATTGDIIYADGGAHTQLL`
+
 ### 1. Retrieving PDB Structure
 
 * The RCSB Protein Data Bank (https://www.rcsb.org/) was used to search for and download the 3D structure file of the target protein by entering the PDB ID (e.g., 8OTN) in the search bar.
