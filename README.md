@@ -8,7 +8,7 @@ This repository contains a computational biology and computer-aided drug design 
 * **Gene:** Rv1484
 * **Function:** InhA is an enzyme involved in fatty acid synthesis, specifically in the synthesis of mycolic acid which are long chain fatty acids unique to mycobacterial cell walls.
 
-###**Vital Pathways:**
+### **Vital Pathways:**
 * InhA participates in the fatty acid elongation process of Type2 fatty acid synthase system (FAS-II).
 * This system is critical for mycolic acids and essential components to the mycobacterial cell wall.
 * Mycolic acids provides the cell wall with impermeability and resistance to host defence and antibiotics, crucial for MT’s virulence and survival.
