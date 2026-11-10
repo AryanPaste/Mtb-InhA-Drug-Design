@@ -43,17 +43,23 @@ The protein structure selected for the study is `8OTN`.
 
 ## 📊 Key Results & Visualizations
 
+### 1. Fasta Sequence
+
 `>8OTN_1|Chains A, B, C, D|Enoyl-[acyl-carrier-protein] reductase [NADH]|Mycobacterium tuberculosis (1773)
 GSHMTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGRVTEAIGAGNKLDGVVHSIGFMPQTGMGINPFFDAPYADVSKGIHISAYSYASMAKALLPIMNPGGSIVGMDFDPSRAMPAYNWMTVAKSALESVNRFVAREAGKYGVRSNLVAAGPIRTLAMSAIVGGALGEEAGAQIQLLEEGWDQRAPIGWNMKDATPVAKTVCALLSDWLPATTGDIIYADGGAHTQLL`
 
-### 1. Retrieving PDB Structure
+### 2. Retrieving PDB Structure
 
 * The RCSB Protein Data Bank (https://www.rcsb.org/) was used to search for and download the 3D structure file of the target protein by entering the PDB ID (e.g., 8OTN) in the search bar.
 * The structure file in PDB format was saved for further analyses and visualization.
 
 ![Structure](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Structure.png)
 
-### 2. Identifying Enzyme Domains with Pfam/InterPro
+![PDB](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20PDB.png)
+
+![Ligands](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Ligands.png)
+
+### 3. Identifying Enzyme Domains with Pfam/InterPro
 
 * The UniProt website (https://www.uniprot.org/) was used to obtain the protein sequence or UniProt accession number.
 * This sequence was entered into the InterPro (https://www.ebi.ac.uk/interpro/) or Pfam tool (https://www.ebi.ac.uk/interpro/search/sequence/) and the search was run.
@@ -61,12 +67,68 @@ GSHMTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGR
 
 ![Enzyme Domains](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20InterPro.png)
 
-### 3. Determining Physicochemical Properties with ProtParam
+### 4. Determining Physicochemical Properties with ProtParam
 
 * The protein’s amino acid sequence was pasted into the ExPASy ProtParam tool (https://web.expasy.org/protparam/).
 * On submission, the results page provided properties such as molecular weight, theoretical pI, composition, and stability indices.
 
-### 4. Analyzing Protein-Protein Interactions with STRING
+`Number of amino acids: 272
+Theoretical pI: 5.87
+Molecular weight: 28809.11
+Amino acid composition: 
+Ala (A)  36	 13.2%
+Arg (R)  13	  4.8%
+Asn (N)   8	  2.9%
+Asp (D)  15	  5.5%
+Cys (C)   1	  0.4%
+Gln (Q)  10	  3.7%
+Glu (E)  11	  4.0%
+Gly (G)  29	 10.7%
+His (H)   6	  2.2%
+Ile (I)  20	  7.4%
+Leu (L)  27	  9.9%
+Lys (K)   9	  3.3%
+Met (M)  10	  3.7%
+Phe (F)   7	  2.6%
+Pro (P)  13	  4.8%
+Ser (S)  17	  6.2%
+Thr (T)  13	  4.8%
+Trp (W)   4	  1.5%
+Tyr (Y)   6	  2.2%
+Val (V)  17	  6.2%
+Pyl (O)   0	  0.0%
+Sec (U)   0	  0.0%
+ (B)   0	  0.0%
+ (Z)   0	  0.0%
+ (X)   0	  0.0%
+Total number of negatively charged residues (Asp + Glu): 26
+Total number of positively charged residues (Arg + Lys): 22
+Atomic composition:
+Carbon      C	      1280
+Hydrogen    H	      2044
+Nitrogen    N	       354
+Oxygen      O	       379
+Sulfur      S	        11
+Formula: C1280H2044N354O379S11
+Total number of atoms: 4068
+Extinction coefficients:
+Extinction coefficients are in units of  M-1 cm-1, at 280 nm measured in water.
+Ext. coefficient    30940
+Abs 0.1% (=1 g/l)   1.074, assuming all pairs of Cys residues form cystines
+Ext. coefficient    30940
+Abs 0.1% (=1 g/l)   1.074, assuming all Cys residues are reduced
+Estimated half-life:
+The N-terminal of the sequence considered is G (Gly).
+The estimated half-life is: 30 hours (mammalian reticulocytes, in vitro).
+                            >20 hours (yeast, in vivo).
+                            >10 hours (Escherichia coli, in vivo).
+Instability index:
+The instability index (II) is computed to be 38.96
+This classifies the protein as stable.
+Aliphatic index: 98.75
+Grand average of hydropathicity (GRAVY):0.135`
+
+### 5. Analyzing Protein-Protein Interactions with STRING
 
 * The STRING database (https://string-db.org/) was accessed and the protein name or UniProt accession was entered in the search bar.
 * The organism (e.g., Mycobacterium tuberculosis) was specified to filter relevant interactions.
@@ -74,28 +136,28 @@ GSHMTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGR
 
 ![STRING](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20STRING.png)
 
-### 5. Identifying Active Sites with CASTp or DoGSiteScorer
+### 6. Identifying Active Sites with CASTp or DoGSiteScorer
 
 * The CASTp server (http://sts.bioe.uic.edu/castp/) was opened and the PDB ID (e.g., 8OTN) was submitted.
 * The server analyzed the structure and returned predicted active site pockets and residue information.
 
 ![Active Sites](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20ActiveSites.png)
 
-### 6. Protein Structure Validation (Ramachandran Plot)
+### 7. Protein Structure Validation (Ramachandran Plot)
 
 * The 3D structure file was obtained from Swiss-Model (https://swissmodel.expasy.org/interactive) or RAMPAGE (http://mordred.bioc.cam.ac.uk/~rapper/rampage.php) online servers.
 * The Ramachandran plot was generated, displaying allowed/disallowed regions for protein backbone dihedral angles.
 
 ![Ramachandran Plot](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20RamachandranPlot.png)
 
-### 7. Drug-Ligand Information Search (FDA Status)
+### 8. Drug-Ligand Information Search (FDA Status)
 
 * DrugBank (https://go.drugbank.com/) was used to search for the ligand (e.g., NAD, NADH, or small-molecule inhibitors).
 * The official DrugBank entry for the ligand was checked for FDA approval status, mechanism of action, and clinical relevance.
 
 ![DrugBank](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Drugbank.png)
 
-### 8. Virtual Screening
+### 9. Virtual Screening
 
 * Online virtual screening tools (such as SwissDock: http://www.swissdock.ch/ or CB-Dock: https://cb-dock.shao.ac.cn/) were used.
 * The protein structure and ligand files (in mol2 or SMILES) were uploaded.
