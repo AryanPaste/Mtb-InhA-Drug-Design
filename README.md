@@ -22,7 +22,7 @@ This repository contains a computational biology and computer-aided drug design 
 
 **Protein Data Bank (PDB) Information:**
 * The crystal structure of InhA from M. tuberculosis has been solved by X-ray crystallography.
-* **Example PDB IDs:** 1BVR, 2NSD, 4TRN, 8OTN
+* **Example PDB IDs:** `1BVR`, `2NSD`, `4TRN`, `8OTN`
 * Structures show InhA complexed with NADH, fatty acyl substrates, and various inhibitors, useful for drug design.
 
 **Properties and Key Features:**
