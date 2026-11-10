@@ -1,6 +1,9 @@
 # Mtb-InhA-Drug-Design 
 
 ## 📋 Project Overview
+This repository contains a computational biology and computer-aided drug design (CADD) study focusing on the **InhA enzyme** (Enoyl-[acyl-carrier-protein] reductase, Gene: `Rv1484`), a critical target for anti-tubercular therapeutics[cite: 1]. The project explores the structural properties of the target protein, protein-protein interaction networks, active site pockets, and virtual screening of potential inhibitors
+
+---
 
 * **Organism:** Mycobacterium tuberculosis (MT)
 * **Protein:** InhA, also known as Enoyl-[acyl-carrier-protein] reductase
