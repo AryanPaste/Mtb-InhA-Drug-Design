@@ -38,3 +38,13 @@ This repository contains a computational biology and computer-aided drug design 
 * **Drug screening:** Molecular docking and inhibitor design focused on the hydrophobic active site.
 
 The protein structure selected for the study is `8OTN`.
+
+---
+
+## 📊 Key Results & Visualizations
+
+### 1.Retrieving PDB Structure
+
+* The RCSB Protein Data Bank (https://www.rcsb.org/) was used to search for and download the 3D structure file of the target protein by entering the PDB ID (e.g., 8OTN) in the search bar.
+* The structure file in PDB format was saved for further analyses and visualization.
+![8OTN - Structure](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Structure.png)
