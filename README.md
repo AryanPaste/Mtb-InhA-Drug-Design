@@ -71,10 +71,11 @@ GSHMTGLLDGKRILVSGIITDSSIAFHIARVAQEQGAQLVLTGFDRLRLIQRITDRLPAKAPLLELDVQNEEHLASLAGR
 
 * The protein’s amino acid sequence was pasted into the ExPASy ProtParam tool (https://web.expasy.org/protparam/).
 * On submission, the results page provided properties such as molecular weight, theoretical pI, composition, and stability indices.
-
-`Number of amino acids: 272
+```
+Number of amino acids: 272
 Theoretical pI: 5.87
 Molecular weight: 28809.11
+
 Amino acid composition: 
 Ala (A)  36	 13.2%
 Arg (R)  13	  4.8%
@@ -98,36 +99,43 @@ Tyr (Y)   6	  2.2%
 Val (V)  17	  6.2%
 Pyl (O)   0	  0.0%
 Sec (U)   0	  0.0%
+
  (B)   0	  0.0%
  (Z)   0	  0.0%
  (X)   0	  0.0%
+ 
 Total number of negatively charged residues (Asp + Glu): 26
 Total number of positively charged residues (Arg + Lys): 22
+
 Atomic composition:
 Carbon      C	      1280
 Hydrogen    H	      2044
 Nitrogen    N	       354
 Oxygen      O	       379
 Sulfur      S	        11
+
 Formula: C1280H2044N354O379S11
 Total number of atoms: 4068
+
 Extinction coefficients:
 Extinction coefficients are in units of  M-1 cm-1, at 280 nm measured in water.
 Ext. coefficient    30940
 Abs 0.1% (=1 g/l)   1.074, assuming all pairs of Cys residues form cystines
 Ext. coefficient    30940
 Abs 0.1% (=1 g/l)   1.074, assuming all Cys residues are reduced
+
 Estimated half-life:
 The N-terminal of the sequence considered is G (Gly).
 The estimated half-life is: 30 hours (mammalian reticulocytes, in vitro).
                             >20 hours (yeast, in vivo).
                             >10 hours (Escherichia coli, in vivo).
+                            
 Instability index:
 The instability index (II) is computed to be 38.96
 This classifies the protein as stable.
 Aliphatic index: 98.75
-Grand average of hydropathicity (GRAVY):0.135`
-
+Grand average of hydropathicity (GRAVY):0.135
+```
 ### 5. Analyzing Protein-Protein Interactions with STRING
 
 * The STRING database (https://string-db.org/) was accessed and the protein name or UniProt accession was entered in the search bar.
