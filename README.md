@@ -43,7 +43,7 @@ The protein structure selected for the study is `8OTN`.
 
 ## 📊 Key Results & Visualizations
 
-### 1.Retrieving PDB Structure
+### 1. Retrieving PDB Structure
 
 * The RCSB Protein Data Bank (https://www.rcsb.org/) was used to search for and download the 3D structure file of the target protein by entering the PDB ID (e.g., 8OTN) in the search bar.
 * The structure file in PDB format was saved for further analyses and visualization.
@@ -57,3 +57,45 @@ The protein structure selected for the study is `8OTN`.
 * The output listed all matched protein domains, which were downloaded in formats such as TSV, JSON, XML, or as a screenshot of the webpage.
 
 ![Enzyme Domains](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20InterPro.png)
+
+### 3. Determining Physicochemical Properties with ProtParam
+
+* The protein’s amino acid sequence was pasted into the ExPASy ProtParam tool (https://web.expasy.org/protparam/).
+* On submission, the results page provided properties such as molecular weight, theoretical pI, composition, and stability indices.
+
+### 4. Analyzing Protein-Protein Interactions with STRING
+
+* The STRING database (https://string-db.org/) was accessed and the protein name or UniProt accession was entered in the search bar.
+* The organism (e.g., Mycobacterium tuberculosis) was specified to filter relevant interactions.
+* STRING displayed an interactive network with predicted protein-protein interactions and functional partners.
+
+![STRING](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20STRING.png)
+
+### 5. Identifying Active Sites with CASTp or DoGSiteScorer
+
+* The CASTp server (http://sts.bioe.uic.edu/castp/) was opened and the PDB ID (e.g., 8OTN) was submitted.
+* The server analyzed the structure and returned predicted active site pockets and residue information.
+
+![Active Sites](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20ActiveSites.png)
+
+### 6. Protein Structure Validation (Ramachandran Plot)
+
+* The 3D structure file was obtained from Swiss-Model (https://swissmodel.expasy.org/interactive) or RAMPAGE (http://mordred.bioc.cam.ac.uk/~rapper/rampage.php) online servers.
+* The Ramachandran plot was generated, displaying allowed/disallowed regions for protein backbone dihedral angles.
+
+![Ramachandran Plot](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20RamachandranPlot.png)
+
+### 7. Drug-Ligand Information Search (FDA Status)
+
+* DrugBank (https://go.drugbank.com/) was used to search for the ligand (e.g., NAD, NADH, or small-molecule inhibitors).
+* The official DrugBank entry for the ligand was checked for FDA approval status, mechanism of action, and clinical relevance.
+
+![DrugBank](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20Drugbank.png)
+
+### 8. Virtual Screening
+
+* Online virtual screening tools (such as SwissDock: http://www.swissdock.ch/ or CB-Dock: https://cb-dock.shao.ac.cn/) were used.
+* The protein structure and ligand files (in mol2 or SMILES) were uploaded.
+* The docking job was submitted, and the results (binding poses, scores) were retrieved after the computational run was completed.
+
+![Virtual Screening](https://github.com/AryanPaste/Mtb-InhA-Drug-Design/blob/main/Images/8OTN%20-%20LigandBinding.png)
