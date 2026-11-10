@@ -1,6 +1,6 @@
 # Mtb-InhA-Drug-Design 
 
-#Overview:
+## 📋 Project Overview
 
 Organism: Mycobacterium tuberculosis (MT)
 
